@@ -19,3 +19,6 @@ io.on('connection', function (socket) {
     socket.emit('toClient', { msg: 'hi,client!' })
   }, 5000)
 });
+
+
+// https://zhuanlan.zhihu.com/p/29148869
